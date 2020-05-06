@@ -1,4 +1,4 @@
-# opa-bundle-demo
+# opa-JWT-validation
 OPA (OPA-Istio) that allows you to enforce OPA policies at the Istio Proxy layer. This is a example of how to validate a JWT at OPA level means validate the JWT before reaching to the service because OPA work as HTTP filter to enovy proxy in the istio service mesh setup. In the JWT validation we can also validate some static attributes without decoding it. OPA gives good support to validate the JWT for more info you can refer [OPA documentation](https://openpolicyagent.org/docs/latest/). 
 
 ### Table of contents
